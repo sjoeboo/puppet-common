@@ -1,6 +1,6 @@
 {
   "name": "sjoeboo-puppet_common",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "sjoeboo",
   "summary": "Puppet Module for common things",
   "license": "Apache-2.0",
