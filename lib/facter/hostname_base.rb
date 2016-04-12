@@ -11,6 +11,6 @@ end
 # something02 => something 
 Facter.add("hostname_base") do
   setcode do
-    Facter.value("hostname").gsub(/\d+$/,"")
+    Facter.value("hostname").gsub(/(\d+)?(-)?(\d+)$/,"")
   end
 end
